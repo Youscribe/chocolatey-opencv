@@ -6,14 +6,14 @@
     <version>2.4.0.20130418</version>
     <authors>OpenCV</authors>
     <owners>Yann ROBIN</owners>
-    <summary>Full OpenCV setup</summary>
-    <description>This package install all opencv on your hard drive</description>
+    <summary>OpenCV (full setup)</summary>
+    <description>OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.</description>
     <projectUrl>http://opencv.org/</projectUrl>
     <tags>opencv</tags>
     <copyright></copyright>
     <licenseUrl>http://opencv.org/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/OpenCVDLL/OpenCVDLL.gif</iconUrl>-->
+    <iconUrl>http://opencv.org/wp-content/themes/opencv/images/logo.png</iconUrl>
     <dependencies>
       <dependency id="7zip.commandline" />
     </dependencies>
