@@ -2,8 +2,9 @@
 
 $packageName = 'OpenCV' # arbitrary name for the package, used in messages
 $binRoot = "$env:systemdrive\"
-$installDir = Join-Path $binRoot 'OpenCV240'
-$url = 'http://downloads.sourceforge.net/project/opencvlibrary/opencv-win/2.4.0/OpenCV-2.4.0.exe' # download url
+$installDir = Join-Path $binRoot 'OpenCV249'
+$url = 'http://downloads.sourceforge.net/project/opencvlibrary/opencv-win/2.4.9/opencv-2.4.9.exe'
+#$url = 'http://downloads.sourceforge.net/project/opencvlibrary/opencv-win/2.4.0/OpenCV-2.4.0.exe' # download url
 $url64 = $url # 64bit URL here or just use the same as $url
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
