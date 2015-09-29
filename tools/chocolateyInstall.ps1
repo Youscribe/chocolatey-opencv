@@ -1,10 +1,10 @@
 ﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
 
 $packageName = 'OpenCV' # arbitrary name for the package, used in messages
+$version = "2.4.11"
 $binRoot = "$env:systemdrive\"
-$installDir = Join-Path $binRoot 'OpenCV249'
-$url = 'http://downloads.sourceforge.net/project/opencvlibrary/opencv-win/2.4.9/opencv-2.4.9.exe'
-#$url = 'http://downloads.sourceforge.net/project/opencvlibrary/opencv-win/2.4.0/OpenCV-2.4.0.exe' # download url
+$installDir = Join-Path $binRoot 'OpenCV2411'
+$url = 'http://downloads.sourceforge.net/project/opencvlibrary/opencv-win/${version}/opencv-${version}.exe'
 $url64 = $url # 64bit URL here or just use the same as $url
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 

@@ -1,0 +1,5 @@
+install:
+  - cinst OpenCV
+
+build_script:
+  - ps: Test-Path c:\OpenCV2411\include\opencv\cv.h
